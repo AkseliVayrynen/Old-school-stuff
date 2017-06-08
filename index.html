@@ -1,0 +1,78 @@
+                    <!DOCTYPE html>
+                <html>
+                    <head>
+                        <meta charset="UTF-8" />
+                        <meta name="description" content= "Vesivoimasivusto VJPtä varten" />
+                        <meta name="author" content="Akseli Väyrynen 2017"/>
+                        <link rel="icon" href = "assets/water.ico" />
+                        <title>VESIVOIMAA</title>
+                        <link rel="stylesheet" href="basicMuotoilu.css">
+                        <link rel="stylesheet" href="indexMenu.css">
+                        <link rel="stylesheet" type="text/css"
+                              href="https://fonts.googleapis.com/css?family=Poiret+One">
+                        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+                        <script src="slideshow.js" type="text/javascript"></script>
+                   </head>
+
+                        <body>
+                            <div class="bgimg">
+                            </div>
+                            
+                            
+                                <nav>   
+                                <ul>
+                                    <li class="navlink1"><a href= "index.html">Etusivu</a></li>
+                                        <li class="navlink2"><a href = "infosivu.html">Miksi vesivoimaa pitäisi tehostaa?</a></li>
+                                    <li class="navlink3"><a href = "contact.html">Materiaaleja ja yhteystiedot</a></li>
+                                </ul>
+                            </nav>
+                            
+                            
+
+                            <header>
+                                <h1>Vedessä on valtavasti voimaa.</h1>
+                                    </header>
+
+
+                            <section class = "home">
+                                <article id = "first" class = "welcometext"> 
+                                    <h2>Olisi silkkaa typeryyttä olla hyödyntämättä  sitä.</h2>
+                                    <p>
+                                        Tarjoamme niin suurille kuin pienillekin yrityksille mahdollisuuden saada vesivoimalaitoksistaan kaikki hyöty irti. 
+                                        Elämme aikakautta, jolloin vesivoima on varmimpia ja ympäristöystävällisimpiä energiantuotantotapoja.
+                                        Välillä yhteistyökumppanimme ovat kuitenkin joutuneet mm. juoksuttamaan vettä turbiinien ohi sekä pohtimaan suuria ympäristökysymyksiä, ja me pyrimmekin tilanteessa kuin tilanteessa olemaan luotettava kumppani heille.
+                                    </p>
+                                </article>
+
+                            </section>     
+                            
+                            <div class="news">
+                            <button id="left"  onclick="previousNews()">Previous</button>
+                            <button id="pause" onclick="changePlayPause(this.id);
+                                                        plsStop();" >Pause</button>
+                            <button id="right" onclick="nextNews()">Next</button>
+                            <h2 id="headline"></h2>
+                            <h3 id="date"></h3>
+                            <p id="contentInside"></p>
+                            </div>
+                            
+                            
+                            <div class="newvideo">
+                                <article>
+                                <h2 id="videoheadline">Katso uusi videomme. <a href="assets/VJPmp4.mp4" download> (Latauslinkki)</a></h2>
+                                    <video width="640" height="360" controls poster="assets/screencap.jpg">
+                                        <!-- trying html5 playback, then download-->
+                                        <source src="assets/VJPmp4.mp4" type="video/mp4">
+                                        <source src="assets/VJPogg.ogv" type="video/ogg">
+                                        <source src="assets/VJPwebm.webm" type="video/webm">
+
+                                    </video>
+                                </article>
+                            
+                            </div>
+                            
+                                <footer>
+                                    <p>Copyright 2017 by Akseli Väyrynen</p>
+                                </footer>    
+                    </body>
+                </html>

@@ -1,0 +1,25 @@
+{
+    "news": [
+
+        {
+            "headline": "Minun uutinen", 
+            "contentInside": "Moi kaikki, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.",
+            "date": "23.1"
+            },
+        {
+            "headline": "Minun uutinen 2",
+            "contentInside": "Moi kaikki 2, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.",
+            "date": "3.1"
+            },
+
+
+        {
+            "headline": "Minun uutinen 3",
+            "contentInside": "Moi kaikki 3, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus.",
+            "date": "2.1"
+            }
+
+
+        ]
+
+} 
